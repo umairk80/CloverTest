@@ -13,4 +13,13 @@ public class ArithmeticOperationsTest {
         Integer expected = 8;
         assertEquals(expected, actual);
     }
+    
+    @Test
+    public void testAdd1()
+    {
+        ArithmeticOperations operations = new ArithmeticOperations();
+        Integer actual = operations.add(3, 6);
+        Integer expected = 8;
+        assertEquals(expected, actual);
+    }
 }
