@@ -6,5 +6,8 @@ public class ArithmeticOperations {
     {
         return a+b;
     }
-
+    public Integer mult(Integer a, Integer b)
+    {
+        return a*b;
+    }
 }
